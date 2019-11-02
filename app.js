@@ -34,9 +34,10 @@ app.post("/user", function(req, res) {
 app.patch("/user", function(req, res) {
   if (req.query && req.query.userId) {
     const userId = req.query.userId;
+    const body = req.body;
     users.forEach(function(user, index) {
       if (user.id === userId) {
-        users[index].name = "nooor";
+        users[index].name = body.name;
       }
     });
     res.json({ success: true });
