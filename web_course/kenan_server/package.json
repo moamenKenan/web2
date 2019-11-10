@@ -1,0 +1,16 @@
+{
+  "name": "kenan_server",
+  "version": "1.0.0",
+  "description": "connect to database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kenan R",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.9"
+  }
+}

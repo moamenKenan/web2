@@ -1,0 +1,13 @@
+<% include partial/header %>
+<h1>hello this is the results page : </h1>
+
+    <% if(titles.length !=0 ){ %>
+        <ul>
+        <% titles.forEach((element) => { %>
+        <li><%= element %></li>
+        <% }); %>
+        </ul>
+    <%}else{ %>
+        <h2>no match</h2>
+    <%}%>
+<% include partial/footer %>

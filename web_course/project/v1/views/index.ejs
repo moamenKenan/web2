@@ -1,0 +1,14 @@
+<% include partial/header %>
+
+<h1>the best 10 hotels</h1>
+
+<% allhotels.forEach(function(hotel){%>
+    <div>
+        <h3><%= hotel.name %></h3>
+        <img src="<%= hotel.image %>" alt="hotel image"> 
+        <a href="/index/<%=hotel._id%>"> details </a>
+    </div>
+<%})%>
+
+
+<% include partial/footer %>

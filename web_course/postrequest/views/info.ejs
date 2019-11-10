@@ -1,0 +1,18 @@
+<% include partial/header %>
+<h1>
+    show the stored informations in the array : 
+</h1>
+<div class='mylist'>
+<% infolist.forEach(function(i){ %>
+    <li> <%= i%></li>
+<%});%>
+</div>
+<h1>add informations to the array</h1>
+<div class='myform'>
+<form action="/addinfo" method="POST">
+<input type="text" name="information" placeholder="write some information ">
+<button> save information</button>
+</form>
+</div>
+
+<% include partial/footer %>

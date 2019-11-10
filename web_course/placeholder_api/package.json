@@ -1,0 +1,21 @@
+{
+  "name": "placeholder_api",
+  "version": "1.0.0",
+  "description": " placeholder api ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "moamen hraden",
+  "license": "ISC",
+  "devDependencies": {
+    "locus": "^2.0.0"
+  },
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
