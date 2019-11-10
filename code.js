@@ -1,6 +1,0 @@
-console.log('Hello Github!');
-console.log('hallo i am moamen');
-console.log("hallo i am kenan to");
-
-var x = hallo ;
-console.log(x);
