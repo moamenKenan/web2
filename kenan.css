@@ -92,10 +92,10 @@ img{
       0%,100%{
           background-image: url(2.jpg);
       }
-      25%{
+      50%{
         background-image: url(6.jpeg);
     }
-    50%{
+    75%{
         background-image: url(1.jpg);
     }
     70%{
