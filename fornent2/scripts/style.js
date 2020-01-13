@@ -2,6 +2,7 @@ $(document).ready(function(){
     backgroundHeight();
     headerHeight();
     navbarScroll();
+    registeroverlay();
 });
 
   function backgroundHeight(){
@@ -20,4 +21,9 @@ $(document).ready(function(){
       $nav.toggleClass('backgroundScroll', $(this).scrollTop() > $nav.height());
       
     });
+  }
+
+
+  function registeroverlay(){
+    $('#registeroverlay').height($(window).height());
   }
